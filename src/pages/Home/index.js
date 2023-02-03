@@ -26,7 +26,7 @@ const Index = () => {
      />
      
      <div className='home'>
-        <h1>Swipe Right®</h1>
+        <h1 className='primary-title'>Swipe Right®</h1>
 
         <button className='primary-button' onClick={handleClick}>
             { authToken ? 'Signout' : 'Create account'}

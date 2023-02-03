@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-const AuthModal = ({setShowModal, isSignUp, setIsSignUp}) => {
+const AuthModal = ({setShowModal, isSignUp}) => {
     const [email,setEmail] = useState("")
     const [password,setPassword] = useState("")
     const [confirmPassword,setConfirmPassword] = useState("")
