@@ -30,7 +30,10 @@ const Index = () => {
   const handleChange = (e) => {
     console.log('e', e)
 
-    const value = e.target.value
+    // get value from input fields and checked property from checkboxes
+    // const value = e.target.value
+    const value = e.target.type === 'checkbox' ? e.target.checked : e.target.value
+    
     const name = e.target.name
     console.log('value: ' + value, 'name: ' + name)
 
@@ -204,7 +207,10 @@ const Index = () => {
             />
 
             <div className='photo-container'>
-
+              <img
+                src={formData.url}
+                alt="profile pic preview"
+              />
             </div>
           </section>
         </form>
