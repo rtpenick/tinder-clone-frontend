@@ -4,12 +4,15 @@ import whiteLogo from '../images/tinder_logo_white.png'
 import colorLogo from '../images/color-logo-tinder.png'
 
 
-const Navbar = ({minimal, authToken, showModal, setShowModal, setIsSignUp}) => {
+const Navbar = ({minimal, showModal, setShowModal, setIsSignUp}) => {
   // const minimal = true
   const handleClick = () => {
     setShowModal(true)
     setIsSignUp(false)
   }
+
+  const authToken = false
+
   return (
     <nav>
       <div className='logo-container'>
