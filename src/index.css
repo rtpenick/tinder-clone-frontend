@@ -215,7 +215,7 @@ nav .logo-container .logo {
 
 
 /*-------- Dashboard  --------*/
-/* .dashboard {
+.dashboard {
     display: flex;
     justify-content: space-between;
 }
@@ -254,12 +254,12 @@ nav .logo-container .logo {
     position: absolute;
     bottom: 0;
     padding: 10px;
-} */
+}
 
 
 
 /*-------- Chat Container --------*/
-/* .chat-container {
+.chat-container {
     background-color: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
@@ -307,7 +307,7 @@ nav .logo-container .logo {
 
 .img-container img {
     width: 100%;
-} */
+}
 
 
 
